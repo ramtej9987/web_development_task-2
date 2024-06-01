@@ -1,0 +1,139 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(181, 247, 247); /* Background color for the body */
+}
+
+/* Container for centered content */
+.container {
+    width: 80%; /* Set width to 80% */
+    max-width: 1200px; /* Set maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Header styling */
+header {
+    background: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 1rem 0; /* Padding for the header */
+}
+
+header h1 {
+    text-align: center; /* Center-align the heading */
+    margin: 0; /* Remove default margin */
+    font-size: 2rem; /* Font size for the heading */
+}
+
+nav ul {
+    display: flex; /* Use flexbox for the navigation menu */
+    justify-content: center; /* Center-align navigation items */
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin: 0 1rem; /* Add spacing between navigation items */
+}
+
+nav ul li a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+    font-weight: bold; /* Make navigation links bold */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover for navigation links */
+}
+
+/* Hero section */
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover; /* Background image for the hero section */
+    color: #fff; /* Text color for the hero section */
+    height: 60vh; /* Set height of the hero section */
+    display: flex; /* Use flexbox for centering content vertically */
+    align-items: center; /* Center-align content vertically */
+    justify-content: center; /* Center-align content horizontally */
+    text-align: center; /* Center-align text */
+}
+
+.container1{
+    color: black; /* Text color */
+    font-family: 'Roboto', sans-serif; /* Font family */
+}
+
+#hero h2 {
+    font-size: 3rem; /* Font size for the heading */
+}
+
+#hero p {
+    font-size: 1.5rem; /* Font size for the paragraph */
+}
+
+/* Sections styling */
+section {
+    padding: 2rem 0; /* Padding for sections */
+    text-align: center; /* Center-align text */
+}
+
+#menu .menu-section {
+    margin: 2rem 0; /* Add margin between menu sections */
+}
+
+#menu h3 {
+    font-size: 1.5rem; /* Font size for section headings */
+    margin-bottom: 1rem; /* Add bottom margin */
+}
+
+#menu ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+#menu ul li {
+    margin: 0.5rem 0; /* Add margin between list items */
+}
+
+.gallery-grid {
+    display: grid; /* Use CSS grid for gallery */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 1rem; /* Add gap between grid items */
+    margin-top: 1rem; /* Add top margin */
+}
+
+.gallery-grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+/* Footer styling */
+footer {
+    background: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 1rem 0; /* Padding for the footer */
+    text-align: center; /* Center-align text */
+}
+
+footer a {
+    color: #fff; /* Text color for links in the footer */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 0.5rem; /* Add margin between links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+.container img{
+    height:200px; /* Set height for images within container */
+}
+
+/* Add comments to explain each section of the CSS */
